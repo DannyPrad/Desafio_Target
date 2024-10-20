@@ -10,3 +10,5 @@ while K < INDICE:
 
 # Exibir o resultado
 print(f"O valor da variável SOMA é: {SOMA}")
+
+#R= Ao final do processamento, o valor da variável SOMA será 77.
