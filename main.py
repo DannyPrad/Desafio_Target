@@ -1,10 +1,10 @@
 numero = int(input("Digite um número: "))
 
-# Verifica se o número é 0 diretamente, pois pertence à sequência
+# Verifica se o número é 0.
 if numero == 0:
     print(f"O número {numero} pertence à sequência de Fibonacci.")
 else:
-    a, b = 0, 1  # Inicializa os dois primeiros números da sequência
+    a, b = 0, 1  #Os dois primeiros números da sequência
 
     # Gera a sequência até que 'b' seja maior ou igual ao número informado
     while b < numero:
